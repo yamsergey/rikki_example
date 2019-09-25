@@ -8,7 +8,7 @@ from rikki.behave.context import Context
 
 def before_all(ctx: Context):
     setattr(ctx, "appium", AppiumService())
-    ctx.appium.start(args=["--relaxed-security"])
+    ctx.appium.start()
     setattr(ctx, "proxy", ctx.config.proxy)
 
 
@@ -27,7 +27,7 @@ def before_scenario(ctx: Context, scenario: Scenario):
         "appPackage": "com.example.car.warehouse",
         "appActivity": "com.example.car.warehouse.ui.CarsList",
         "noReset": "noReset" in scenario.tags,
-        "app": "/Users/yamshchikov/work/yamsergey/dev_talks/rikki-talk/warehouse.apk",
+        "app": "warehouse.apk",
         "forceEspressoRebuild": "true"
     }
 

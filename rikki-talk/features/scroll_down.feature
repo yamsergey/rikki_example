@@ -7,11 +7,6 @@ Feature: Scroll Down
       | path                     | /cars/all          |
       | replace_response_code    | 200                |
       | replace_response_content | %{file.cars.json}% |
-    Given Intercept and replace http data
-      | option                   | value              |
-      | host                     | localhost          |
-      | path                     | /cars/track        |
-      | replace_response_code    | 200                |
     Given relaunch
 
   Scenario: Request cars list
