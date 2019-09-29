@@ -1,26 +1,28 @@
-[
-  {
-    "id": 1,
-    "carId": "3C3CFFFH9DT277173",
-    "inStock": false,
-    "hp": 432,
-    "price": 131168.63,
-    "color": "Pink"
-  },
-  {
-    "id": 2,
-    "carId": "1N6AA0CC8EN174378",
-    "inStock": false,
-    "hp": 155,
-    "price": 47150.58,
-    "color": "Goldenrod"
-  },
-  {
-    "id": 3,
-    "carId": "WAUJFAFH8DN836036",
-    "inStock": false,
-    "hp": 532,
-    "price": 35467.0,
-    "color": "Violet"
-  }
-]
+{
+  "cars": [
+    {
+      "id": 1,
+      "carId": "3C3CFFFH9DT277173",
+      "inStock": false,
+      "hp": 432,
+      "price": 131168.63,
+      "color": "Pink"
+    },
+    {
+      "id": 2,
+      "carId": "1N6AA0CC8EN174378",
+      "inStock": false,
+      "hp": 155,
+      "price": 47150.58,
+      "color": "Goldenrod"
+    },
+    {
+      "id": 3,
+      "carId": "WAUJFAFH8DN836036",
+      "inStock": false,
+      "hp": 532,
+      "price": 35467.0,
+      "color": "Violet"
+    }
+  ]
+}
