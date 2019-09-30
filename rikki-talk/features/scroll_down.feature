@@ -19,4 +19,4 @@ Feature: Scroll Down
 
   Scenario: No user data in network communication
     Given Wait for cars list loaded
-    Then Check no "yamsergey" in any requests/responses because "No email in Network"
+    Then Check no "yamsergey" in any request because "GDPR doesn't like emails"
